@@ -8,3 +8,11 @@ git commit -m "SDP"
 git branch -M main
 git remote add origin https://github.com/Mateu57/SDP-1.git
 git push -u origin main
+git branch BRANCH_1
+git checkout BRANCH_1
+git add .
+git commit -m "komentarz1"
+git push origin BRANCH_1
+git checkout main
+git merge BRANCH_1
+git push
