@@ -1,0 +1,10 @@
+token SDP #1: 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 
+_____________________________________________________________________________________________
+curl -u Mateu57:token https://api.github.com/user
+echo "SDP #1" >> README.md
+git init
+git add README.md
+git commit -m "SDP"
+git branch -M main
+git remote add origin https://github.com/Mateu57/SDP-1.git
+git push -u origin main
